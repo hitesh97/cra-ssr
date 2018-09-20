@@ -1,5 +1,5 @@
 {
-  "name": "React Single Page app with Server side rendering",
+  "name": "create_react_app-sever_side_render",
   "homepage": "https://cra-ssr.herokuapp.com",
   "version": "0.1.0",
   "private": true,
