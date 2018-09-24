@@ -11,6 +11,8 @@ import { isServer } from '../store';
 import Header from './header';
 import Routes from './routes';
 
+import './app.scss';
+// can import .css file as well if needed
 import './app.css';
 
 class App extends Component {
