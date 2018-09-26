@@ -6,7 +6,9 @@ import { Frontload } from 'react-frontload';
 import { ConnectedRouter } from 'connected-react-router';
 import createStore from './store';
 
-import App from './app/app';
+import 'antd/dist/antd.css';
+// import App from './app/app';
+import AdminLayout from './app/admin';
 
 import './index.scss';
 import './index.css';
@@ -20,7 +22,7 @@ const Application = (
   <Provider store={store}>
     <ConnectedRouter history={history}>
       <Frontload noServerRender>
-        <App />
+        <AdminLayout />
       </Frontload>
     </ConnectedRouter>
   </Provider>
